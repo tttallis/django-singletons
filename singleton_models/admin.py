@@ -44,4 +44,4 @@ class SingletonModelAdmin(admin.ModelAdmin):
             return HttpResponseRedirect(request.path)
         else:
             self.message_user(request, msg)
-            return HttpResponseRedirect("../../../")
+            return HttpResponseRedirect("../../")
