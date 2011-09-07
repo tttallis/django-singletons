@@ -44,7 +44,7 @@ class SingletonModelAdmin(admin.ModelAdmin):
             return HttpResponseRedirect(request.path)
         else:
             self.message_user(request, msg)
-            return HttpResponseRedirect("../../../")
+            return HttpResponseRedirect("../../")
             
     def change_view(self, request, object_id, extra_context=None):
         if object_id=='1':
