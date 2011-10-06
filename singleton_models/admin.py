@@ -5,6 +5,8 @@ from django.http import HttpResponseRedirect
 from django.utils.functional import update_wrapper
 
 class SingletonModelAdmin(admin.ModelAdmin):
+
+    change_form_template = "admin/singleton_models/change_form.html"
     
     def has_add_permission(self, request):
         """ Singleton pattern: prevent addition of new objects """

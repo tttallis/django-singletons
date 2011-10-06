@@ -11,7 +11,7 @@ Installation
 
 pip install django-singletons
 
-There is no need to include it in INSTALLED_APPS
+To get the custom admin templates working, you need to add "singleton_models" to your INSTALLED_APPS
 
 Example Usage
 -------------

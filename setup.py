@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='django-singletons',
-    version='0.1.3',
+    version='0.1.4',
     description='Reusable singleton models for Django',
     author='Thomas Ashelford',
     author_email='thomas@ether.com.au',
